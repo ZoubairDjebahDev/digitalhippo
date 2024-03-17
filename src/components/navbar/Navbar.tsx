@@ -3,7 +3,7 @@ import { Icons } from "../Icons";
 import MaxWidthWrapper from "../MaxWidthWrapper";
 import { buttonVariants } from "../ui/button";
 import NavItems from "./NavItems";
-import { ShoppingCartIcon } from "lucide-react";
+import Cart from "../cart/Cart";
 
 interface NavbarProps {}
 
@@ -68,7 +68,7 @@ const Navbar = () => {
                   )}
 
                   <div className="ml-4 flow-root lg:ml-6">
-                    <ShoppingCartIcon />
+                    <Cart />
                   </div>
                 </div>
               </div>
